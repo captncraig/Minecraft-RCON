@@ -1,5 +1,5 @@
 <?php
-$rconHost = "localhost";
-$rconPort = 25575;
-$rconPassword = "xtMJsVtmx0XypuId7jIb";
+$rconHost = $_ENV["RCON_HOST"];
+$rconPort = $_ENV["RCON_PORT"];
+$rconPassword = $ENV["RCON_PASSWORD"];
 ?>
